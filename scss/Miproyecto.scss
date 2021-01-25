@@ -1,0 +1,9 @@
+@mixin tablaRRPP ($alto, $ancho){
+
+  height: $alto;
+  width: $ancho;
+}
+
+.tablaRRPP {
+  @include tablaRRPP (30%,50%);
+}
