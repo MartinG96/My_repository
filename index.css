@@ -10,12 +10,12 @@ body {
 	display: flex;
 	flex-direction: column;
 	background: #0b0b0b;
-	min-height: 100vh;	
+	min-height: 5vh;	
 }
 
 nav{
 	position: absolute;
-	top: 50%;
+	top: 5%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
@@ -68,39 +68,16 @@ nav ul li a:hover:after{
 }
 
 
-.sectionTitulos{
-	background-image: url(boliche.jpg);
-	background-size: cover;
-}
-.Titulos{
-	font-family: 'Castoro', serif;
-	font-style: italic;
-	letter-spacing: 5px;
-	font-size: 56px;
-	color: #000000;
-}
-
-.Parrafos{
-	font-family: 'Castoro', serif;
-	font-size: 32px;
+h1 {
 	color: white;
-	
-
 }
 
-ul{
-	list-style-type: none;
-	overflow: hidden; 
-	
+p {
+	color: white;
 }
 
-li{
-	display: inline-block;
-	width: 16%;
-	position: static;
-	font-size: 18px;
-	float: left;
-}
+
+
 
 
 
@@ -111,9 +88,6 @@ li{
 	
 }
 
-ol{
-	color: blue;
-}
 
 .cuadroPrincipal{
 	background-color: white;
@@ -175,7 +149,7 @@ td ol li{
      "header 	header 		header"
      "textoppal 	textoppal 	ubicacion"
      "footer 	footer 		footer";
-   grid-template-rows: 1fr 1fr 1fr; 
+   grid-template-rows: 5% auto 1fr; 
    grid-template-columns: 20% auto 20%;
 
    grid-column-gap: 10px;
